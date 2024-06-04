@@ -26,6 +26,9 @@ Here's an overview of the projects included in this repository:
 
 9. **Tic Tac Toe Project (HTML, CSS, JavaScript):** A fully functional two-player Tic Tac Toe game implemented using HTML for structure, CSS for styling, and JavaScript for game logic and interactivity.
 
+10. **HKRM WordPress Portfolio Project (WordPress):** A portfolio website built using the WordPress content management system. This project demonstrates your understanding of theme development, plugin customization, and content creation within the WordPress ecosystem.
+![Image Alt text](/images/A2.png)
+
 ## Contributing
 
 If you'd like to contribute to these projects, feel free to fork the repository and submit pull requests.
