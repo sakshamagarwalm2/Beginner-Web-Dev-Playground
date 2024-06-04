@@ -1,0 +1,106 @@
+.projectcard {
+    margin-top: 50;
+    margin-bottom: 20;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.card1 {
+
+    margin-top: 50 20 20 20;
+    background:
+        url('Screenshot 2023-10-26 194032.png') center no-repeat;
+}
+
+.card2 {
+    margin-top: 20 20 20 20;
+    background:
+        url('Screenshot 2023-10-26 194129.png') center no-repeat;
+}
+
+.card3 {
+    margin-top: 20 20 20 20;
+    background:
+        url('Programming_code.jpg') center no-repeat;
+}
+
+.card4 {
+    margin-top: 20 20 20 20;
+    background:
+        url('Screenshot 2023-10-26 193537.png') center no-repeat;
+}
+
+
+/* General styles end */
+
+.card {
+    margin: 0 15px;
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid #604e48;
+    transition:
+        translate 1s,
+        box-shadow 1s;
+    color: transparent;
+    font-weight: 700;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+
+}
+
+.card1:hover {
+    border: none;
+    translate: 0 -20px;
+    box-shadow:
+        5px 3px rgba(175, 172, 165, 255),
+        10px 6px rgba(148, 99, 85, 255),
+        15px 9px rgba(116, 51, 33, 255);
+    color: rgb(255, 255, 255);
+    background-image: url('dp.png');
+
+}
+
+.card2:hover {
+    border: none;
+    translate: 0 -20px;
+    box-shadow:
+        5px 3px rgba(2, 159, 254, 255),
+        10px 6px rgba(0, 95, 201, 255),
+        15px 9px rgba(35, 40, 82, 255);
+    color: rgb(255, 255, 255);
+    background-image: url('dp.png');
+}
+
+.card3:hover {
+    border: none;
+    translate: 0 -20px;
+    box-shadow:
+        5px 3px rgb(217 220 242 / 75%),
+        10px 6px rgb(44 217 255 / 50%),
+        15px 9px rgb(126 255 178 / 25%);
+    color: rgb(255, 255, 255);
+    background-image: url('dp.png');
+}
+
+.card4:hover {
+    border: none;
+    translate: 0 -20px;
+    box-shadow:
+        5px 3px rgba(2, 159, 254, 255),
+        10px 6px rgba(0, 95, 201, 255),
+        15px 9px rgba(35, 40, 82, 255);
+    color: rgb(255, 255, 255);
+    background-image: url('dp.png');
+}

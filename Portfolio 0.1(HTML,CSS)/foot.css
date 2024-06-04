@@ -1,0 +1,36 @@
+footer {
+    max-width: 100%;
+    font-size: 1.4rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    margin-bottom: 2px;
+    padding-bottom: 15px;
+}
+
+.links img {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.links a {
+    display: flex;
+}
+
+.links a:hover {
+    color: rgb(224, 196, 253);
+    font-size: 1.02rem;
+}
+
+.copyright {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 0, 27);
+    font-size: 0.8rem;
+}

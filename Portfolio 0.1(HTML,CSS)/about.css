@@ -1,0 +1,21 @@
+#about {
+    font-size: 1rem;
+    width: 60%;
+}
+
+.greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+#me {
+    border-radius: 50%;
+    width: 85%;
+    opacity: 90%;
+}
+
+#contact {
+    width: 150px;
+}

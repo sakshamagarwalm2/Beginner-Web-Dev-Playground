@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(27, 0, 40);
+    color: aliceblue;
+    height: 100%;
+    z-index: 0;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    transition: all 0.25s ease;
+}

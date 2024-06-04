@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, rgb(23, 23, 23), #4D4D4D, #6c609a, #BEADFA, #D0BFFF, #FFF4E0);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainb{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container {
+    max-width: 28.125rem;
+    background: linear-gradient(to bottom right, #2D033B, #810CA8, #C147E9, #E5B8F4);
+    border-radius: .6rem;
+    box-shadow: 0px 0px 1rem 0.2rem rgba(0, 0, 0, 0.4);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 0.625rem;
+}
+
+.Temperature-icon {
+    font-size: 45px;
+    color: #fff;
+}
+
+h1 {
+    color: #e4e8fd;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+}
+
+#celsius,
+#fahrenheit,
+#kelvin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+input {
+    flex: 5;
+    height: 3.75rem;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem 0 0 0.5rem;
+    padding: 0 0.625rem;
+}
+
+
+/* for chrome, safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.icon {
+    flex: 1;
+    height: 3.75rem;
+    line-height: 3.75rem;
+    padding: 0 0.32rem;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(to bottom right, #0F0F0F, #232D3F, #005B41, #008170);
+    color: #FFBA86;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+
+.button {
+    margin-top: 1.6rem;
+    text-align: center;
+}
+
+
+.button button {
+    border: none;
+    outline: none;
+    padding: 0.625rem 1.873rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 30% 70% 67% 33% / 30% 30% 70% 70%;
+    cursor: pointer;
+    transition: 0.9s;
+    width: 9.4rem;
+    height: 5rem;
+    background: linear-gradient(to bottom right, #B6FFFA, #98E4FF, #80B3FF, #687EFF);
+}
+
+.button button:hover {
+    background: linear-gradient(to bottom right, #0F0F0F, #232D3F, #005B41, #008170);
+    ;
+    color: #FFBA86;
+}
+
+body .air {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+    background-size: 1000px 100px
+}
+
+body .air.air1 {
+    animation: wave 30s linear infinite;
+    z-index: 10;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+body .air.air2 {
+    animation: wave2 15s linear infinite;
+    z-index: 9;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+
+body .air.air3 {
+    animation: wave 30s linear infinite;
+    z-index: 8;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+}
+
+body .air.air4 {
+    animation: wave2 5s linear infinite;
+    z-index: 7;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+}
+
+@keyframes wave {
+    0% {
+        background-position-x: 0px;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes wave2 {
+    0% {
+        background-position-x: 0px;
+    }
+
+    100% {
+        background-position-x: -1000px;
+    }
+}
+
+footer {
+    position: relative;
+    color: #0F0F0F;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    z-index: 12;
+    margin-top: 60px;
+}

@@ -1,0 +1,81 @@
+.background-video {
+    display: inline;
+    position: absolute;
+    filter: blur(7px);
+    width: 100vw;
+    height: auto;
+    z-index: -3;
+    overflow: hidden;
+}
+
+.firstsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 12vh 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.left-section {
+    font-size: 2.3rem;
+}
+
+.right-section img {
+    width: 100%;
+}
+
+.name {
+    color: rgb(154, 12, 133);
+}
+
+#element {
+    color: rgb(26, 81, 125);
+}
+
+.resume {
+    width: 30%;
+    height: 40%;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-color: aliceblue;
+    border-radius: 5%;
+    margin: 0 5px;
+}
+
+.resume:hover {
+    background-color: rgb(71, 39, 105);
+    font-size: 1.3rem;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: large;
+    color: blanchedalmond;
+}
+
+.omimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.omimg img {
+    height: auto;
+    width: 350px;
+    margin-top: 20px;
+}
+
+main hr {
+    border: 0;
+    background: rgb(172, 227, 248);
+    height: 1.2px;
+    margin: 40px 84px;
+    margin-bottom: 20px;
+}
